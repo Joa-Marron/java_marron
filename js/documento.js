@@ -1,50 +1,84 @@
-for (let a = 1; a < 11; a++) {
-    console.log("el valor de la variable a es: " + a);
+alert('¡Buenos días! \n Hoy vamos a ponernos a prueba. \n Vamos a comenzar conociéndonos. Mi nombre es Joana.');
+
+const nombre = prompt('¿Cuál es tu nombre?');
+
+let saludar = () => {
+    alert("Hola " + nombre + ". Espero que tengas muchas ganas de aprender.")
 }
 
-for (let b = 1; b < 2; b++) {
-    console.log("el valor de la variable b es: " + b * 2);
+saludar();
+
+alert('Ahora, necesito saber a qué grado vas: ');
+
+let grado = prompt('Ingresá A si asistís a primer ciclo, B si asistís a segundo ciclo o C si asistís 7° grado. \n Recordá que la letra debe ser MAYÚSCULA. ');
+
+if (grado == 'A') {
+    alert('¡Genial Los primeros grados son un mundo maravilloso en donde descubrimos todo el tiempo cosas nuevas.');
+} else if (grado == 'B') {
+    alert('¡Genial! El segundo ciclo no coloca a mitad del camino y es en donde nos vamos haciendo más independientes.');
+} else if (grado == 'C') {
+    alert('¡Genial! Somos los más grandes de la escuela, los que les enseñamos con el ejemplo a los más pequeños y nos estamos preparando para arrancar la secundaria.');
+} else {
+    alert('Estamos distraídos. No te preocupes, más tarde te vuelvo a preguntar.');
 }
 
-for (let i = 1; i < 11; i++) {
-    if (i == 5) {
+alert('En apenas cinco segundos vamos a comenzar con una preguntita para saber cómo estamos con los conocimientos.');
+
+let cuentaRegresiva = 5
+while (cuentaRegresiva < 6) {
+    cuentaRegresiva--;
+    alert(cuentaRegresiva);
+    if (cuentaRegresiva == 0) {
+        alert('¡Empecemos!');
         break;
     }
-    console.log(i);
 }
 
-
-
-let divisor = parseInt(prompt("Escriba un divisor del número 10: "));
+let divisor = prompt("¿Cuál es mi nombre? ");
 
 switch (divisor) {
-    case "uno":
-        alert("¡Perfecto! Uno es divisor de 10");
+
+    case "Joana":
+        alert("¡Perfecto! Tu atención es magnífica.");
         break;
-    case 1:
-        alert("¡Perfecto! 1 es divisor de 10");
+
+    case "joana":
+        alert("¡Perfecto! Tu atención es magnífica. Recordá que los sustantivos propios comienzan con mayúscula. ;)");
         break;
-    case "dos":
-        alert("¡Perfecto! Dos es divisor de 10");
+
+    case "Jhoana":
+        alert("Tu memoria es muy buena, pero mi nombre va sin H.");
         break;
-    case 2:
-        alert("¡Perfecto! 2 es divisor de 10");
+
+    case "jhoana":
+        alert("Tu memoria es muy buena, pero mi nombre va sin H. Recordá que los sustantivos propios comienzan con mayúscula. ;)");
         break;
-    case "cinco":
-        alert("¡Perfecto! Cinco es divisor de 10");
+
+    case "Joanna":
+        alert("Tu memoria es muy buena, pero mi nombre va con una sola N.");
         break;
-    case 5:
-        alert("¡Perfecto! 5 es divisor de 10");
+
+    case "joanna":
+        alert("Tu memoria es muy buena, pero mi nombre va con una sola N. Recordá que los sustantivos propios comienzan con mayúscula. ;)");
         break;
-    case "diez":
-        alert("¡Perfecto! Diez es divisor de 10");
+
+    case "Jhoanna":
+        alert("Tu memoria es muy buena, pero mi nombre va con una sola N y sin H");
         break;
-    case 10:
-        alert("¡Perfecto! 10 es divisor de 10");
+
+    case "jhoanna":
+        alert("Tu memoria es muy buena, pero mi nombre va con una sola N y sin H. Recordá que los sustantivos propios comienzan con mayúscula. ;)");
         break;
 
     default:
-        alert("Ese número no es divisor de 10. Volvamos a intentarlo.");
+        alert("¿No te acordás de mi nombre? No te hagás problema. Me llamo Joana.");
         break;
-}
 
+
+
+        const felicitar = (nombre) => {
+            console.log("¡Felicitaciones " + nombre + "!")
+        }
+
+        felicitar(nombre);
+}
