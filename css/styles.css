@@ -5,3 +5,102 @@
     list-style: none;
     text-decoration: none;
 }
+
+@font-face {
+    font-family: Adelia;
+    src: url(/font/ADELIA.otf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/font/Roboto-Regular.ttf);
+}
+
+body {
+    background-image: url(/img/backgroundBody.jpg);
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Adelia;
+    color: #f72585;
+    background-color: bisque;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid rgb(20, 0, 24);
+}
+
+.text {
+    font-family: Roboto;
+    color: #b01273;
+    background-color: aliceblue;
+    border: 2px solid rgb(20, 0, 24);
+    margin: 30px;
+    padding: 10px;
+    width: 60%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    border: 5px solid rgb(20, 0, 24);
+    margin-top: 40px;
+    padding: 20px;
+
+    display: grid;
+    grid-template-areas: "bloque1 bloque2 bloque3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin: 20px;
+}
+
+footer section.bloque1 {
+    grid-area: bloque1;
+}
+
+footer section.bloque2 {
+    grid-area: bloque2;
+}
+
+footer section.bloque3 {
+    grid-area: bloque3;
+}
+
+.bloque1 {
+    display: flex;
+    margin: 15px;
+
+}
+
+.bloque2 {
+    margin-right: 30px;
+}
+
+.footerText {
+    font-family: roboto;
+    color: #4f0c35;
+    margin: 20px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}

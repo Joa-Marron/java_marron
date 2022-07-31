@@ -13,33 +13,33 @@ for (let i = 1; i < 11; i++) {
     console.log(i);
 }
 
-// //Estructura Switch con prompt.
 
-let divisor = prompt("Escriba un divisor del número 10: ");
+
+let divisor = parseInt(prompt("Escriba un divisor del número 10: "));
 
 switch (divisor) {
     case "uno":
         alert("¡Perfecto! Uno es divisor de 10");
         break;
-    case "1":
+    case 1:
         alert("¡Perfecto! 1 es divisor de 10");
         break;
     case "dos":
         alert("¡Perfecto! Dos es divisor de 10");
         break;
-    case "2":
+    case 2:
         alert("¡Perfecto! 2 es divisor de 10");
         break;
     case "cinco":
         alert("¡Perfecto! Cinco es divisor de 10");
         break;
-    case "5":
+    case 5:
         alert("¡Perfecto! 5 es divisor de 10");
         break;
     case "diez":
         alert("¡Perfecto! Diez es divisor de 10");
         break;
-    case "10":
+    case 10:
         alert("¡Perfecto! 10 es divisor de 10");
         break;
 
@@ -47,3 +47,4 @@ switch (divisor) {
         alert("Ese número no es divisor de 10. Volvamos a intentarlo.");
         break;
 }
+
