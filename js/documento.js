@@ -43,5 +43,47 @@ for (let i in mordedores) {
 mordedores.shift();
 console.log(mordedores);
 
-camas.splice(2,2);
+camas.splice(2, 2);
 console.log(camas);
+
+const encontrado = mordedores.find((mordedores) => mordedores.precio < 1100);
+console.log(encontrado);
+
+const filtrado = ropitas.filter((ropitas) => ropitas.precio < 2000);
+console.log(filtrado);
+
+const buscaCamas = camas.some((camas) => camas.precio < 3000);
+console.log(buscaCamas);
+
+const descuento = camas.map((camas) => {
+    return {
+        comida: camas.producto,
+        precio: camas.precio * .90
+    }
+})
+
+console.log(descuento);
+
+let saludo = prompt(`Bienvenido a Happy Paws. La tienda pensada para el bienestar de sus mascotas.\n¿Qué productos desea ver?
+\n Por favor, ingrese la opción correspondiente:
+\n1- MORDEDORES\n2- ROPITAS\n3- CAMAS`);
+
+saludo = parseInt(saludo);
+
+if (saludo == 1) {
+    mordedores.forEach(element => {
+        console.log(element)
+    });
+
+} else if (saludo == 2) {
+    ropitas.forEach(element => {
+        console.log(element)
+    });
+} else if (saludo == 3) {
+    camas.forEach(element => {
+        console.log(element)
+    });
+
+} else {
+    console.log('Lo siento, no ha ingresado el dato correspondiente');
+}
