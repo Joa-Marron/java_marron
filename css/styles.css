@@ -16,8 +16,13 @@
     src: url(/font/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: Gracelyne;
+    src: url(/font/Gracelyne.otf);
+}
+
 body {
-    background-image: url(/img/backgroundBody.jpg);
+    background-image: url(/img/backgroundPatitas.jpg);
     background-size: cover;
 }
 
@@ -31,6 +36,8 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+
 
 .containerHeader {
 
@@ -56,10 +63,38 @@ body {
     width: 60%;
 }
 
-.dog {
-    border: 2px solid rgb(20, 0, 24);
-    height: 600px;
-    width: 90%
+.slogan {
+    padding: 40px;
+}
+
+.mainInfo {
+    font-family: Gracelyne;
+    font-size: x-large;
+    color: #19012c;
+    width: 90vh;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    background-image: url(/img/backgroundPanal.jpg);
+    background-size: cover;
+    border: 2px solid rgb(58, 4, 71);
+}
+
+.selector {
+    border: 2px solid rgb(58, 4, 71);
+    color: #210224;
+    background-color: rgb(238, 198, 253);
+    padding: 5px;
+}
+
+.btnElegir {
+    margin: 5px;
+    border: 2px solid rgb(58, 4, 71);
+    color: #f9ecfa;
+    background-color: rgb(12, 1, 15);
+    padding: 5px;
+
 }
 
 footer {
@@ -70,7 +105,8 @@ footer {
     background-size: cover;
     border: 5px solid rgb(20, 0, 24);
     margin-top: 40px;
-    padding: 20px;
+    padding: 5px;
+
 
     display: grid;
     grid-template-areas: "bloque1 bloque2 bloque3";
@@ -113,4 +149,4 @@ footer section.bloque3 {
     display: flex;
     justify-content: space-around;
     margin: 10px;
-    }
+}
