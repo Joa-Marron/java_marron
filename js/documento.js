@@ -52,8 +52,8 @@ const handleClick = (array, select) => {
 
 const mostrarHTML = (array, lista) => {
     lista.innerHTML = '';
-    array.forEach(venta => {
-        let li = `<li>${venta.producto}, fabricado con ${venta.material} $ ${venta.precio}</li>`
+    array.forEach(Didactico => {
+        let li = `<li>${Didactico.producto}, fabricado con ${Didactico.material} $ ${Didactico.precio}</li>`
         lista.innerHTML += li;
     })
 }

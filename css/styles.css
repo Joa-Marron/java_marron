@@ -37,6 +37,13 @@ body {
     align-items: center;
 }
 
+.columnMedio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
 
 
 .containerHeader {
@@ -56,7 +63,7 @@ body {
 .text {
     font-family: Roboto;
     color: #13002b;
-    background-image: linear-gradient(to left, rgb(189, 161, 186), rgb(128, 45, 196));
+    background-image: linear-gradient(to left, #e0aaff, rgb(179, 179, 179));
     border: 2px solid rgb(20, 0, 24);
     margin: 30px;
     padding: 10px;
@@ -71,8 +78,6 @@ body {
     font-family: Gracelyne;
     font-size: x-large;
     color: #19012c;
-    width: 90vh;
-    height: auto;
     padding: 10px;
     margin: 10px;
     margin-bottom: 20px;
@@ -95,6 +100,19 @@ body {
     background-color: rgb(12, 1, 15);
     padding: 5px;
 
+}
+
+.textProduct {
+    font-family: Roboto;
+    color: #320036;
+    font-size: larger;
+}
+
+.precios {
+    background-image: url(/img/backgroundPrecios.png);
+    background-size: cover;
+    height: 350px;
+    width: 585px;
 }
 
 footer {
@@ -129,24 +147,15 @@ footer section.bloque3 {
     grid-area: bloque3;
 }
 
-.bloque1 {
-    display: flex;
-    margin: 15px;
-
-}
-
-.bloque2 {
-    margin-right: 30px;
-}
 
 .footerText {
     font-family: roboto;
     color: #21003f;
-    margin: 20px;
+    margin: 5px;
 }
 
 .link {
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    margin: 5px;
 }
