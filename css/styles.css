@@ -21,6 +21,11 @@
     src: url(/font/Gracelyne.otf);
 }
 
+@font-face {
+    font-family: iLoveSalmon;
+    src: url(/font/ILoveSalmon.ttf);
+}
+
 body {
     background-image: url(/img/backgroundPatitas.jpg);
     background-size: cover;
@@ -44,6 +49,20 @@ body {
     margin-top: 100px;
 }
 
+.aire {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sizeM {
+    font-size: medium;
+}
+
+.sizeXXL {
+    font-size: xx-large;
+}
 
 
 .containerHeader {
@@ -58,6 +77,18 @@ body {
 .title {
     font-family: Adelia;
     color: #4d0c53;
+}
+
+
+.btnLogin {
+    margin-left: 25px;
+    margin-top: 5px;
+    border-radius: 20%;
+    border: 2px solid rgb(204, 187, 35);
+    background-color: #09000e;
+    color: #f9ecfa;
+    padding: 10px;
+    font-family: adelia;
 }
 
 .text {
@@ -115,9 +146,24 @@ body {
     width: 585px;
 }
 
+.btnLink {
+    font-family: iLoveSalmon;
+    font-size: x-large;
+    color: #09000e;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-image: linear-gradient(to left, #c763e6, #7510a3);
+    border-radius: 20px;
+    border: 2px solid #0c0b0b;
+}
+
 footer {
     display: flex;
-    flex-direction: column;
     align-items: center;
     background-image: url(/img/backgroundfooter.jpg);
     background-size: cover;
@@ -127,7 +173,8 @@ footer {
 
 
     display: grid;
-    grid-template-areas: "bloque1 bloque2 bloque3";
+    grid-template-areas:
+        "bloque1 bloque2 bloque3";
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 5px;
@@ -147,6 +194,21 @@ footer section.bloque3 {
     grid-area: bloque3;
 }
 
+.bloque1 {
+    margin-right: 30px;
+}
+
+.bloque2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.bloque3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
 
 .footerText {
     font-family: roboto;
@@ -158,4 +220,43 @@ footer section.bloque3 {
     display: flex;
     justify-content: space-around;
     margin: 5px;
+}
+
+.bloqueLogin {
+    margin-top: 25px;
+    background-color: #2e0047;
+    color: #d6ced6;
+    border: 3px solid rgb(182, 11, 153);
+    font-family: Roboto;
+    padding: 30px;
+    height: auto;
+    width: 500px;
+}
+
+.inputDatos {
+    border: 2px solid rgb(219, 73, 195);
+    padding: 5px;
+}
+
+.btnInfo {
+    padding: 5px;
+    margin-top: 15px;
+
+}
+
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iniciar {
+    border: 2px solid rgb(19, 0, 32);
+    background-color: rgb(95, 150, 108);
+    color: #0a0114;
+}
+
+.borrar {
+    border: 2px solid rgb(19, 0, 32);
+    background-color: rgb(185, 98, 98);
+    color: #0a0114;
 }
