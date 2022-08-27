@@ -32,7 +32,7 @@ const mordedores = [pelota, pez, hueso, mancuerna];
 const ropitas = [buzo, gorro];
 const camas = [ortopedica, clasica, nido, iglu, redonda];
 
-const productosTotal = [pelota, pez, hueso, mancuerna, buzo, gorro, ortopedica, clasica, nido, iglu, redonda];
+const productosTotal = [...mordedores, ...ropitas, ...camas];
 
 
 console.log(productosTotal);
@@ -61,3 +61,4 @@ const mostrarHTML = (array, lista) => {
 elegir.onclick = () => {
     mostrarHTML(handleClick(productosTotal, selectorOpciones), listaResultados);
 }
+
