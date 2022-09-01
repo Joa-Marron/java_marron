@@ -62,3 +62,14 @@ elegir.onclick = () => {
     mostrarHTML(handleClick(productosTotal, selectorOpciones), listaResultados);
 }
 
+const title = document.getElementById('title');
+
+title.addEventListener('click', () => {
+    Swal.fire({
+        title: 'Happy Paws',
+        text: 'Te damos la bienvenida a nuestro sitio',
+        icon: 'info',
+        iconColor: '#4d0c53',
+        confirmaButtonText: 'Gracias',
+    })
+})

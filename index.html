@@ -11,27 +11,65 @@
 
 <body>
 
-    <main>
 
-        <div>
+    <header>
 
-            <div class="container containerHeader flex">
+        <nav class="navbar navbar-expand-lg navbar-light nav h6" id="nav">
 
-                <a href="#"><img class="logo" src="/img/logo.png" alt="Logo de Happy Paws"></a>
+            <div class="container-fluid">
+
+                <a href="/index.html"><img src="/img/logo.png" alt="Logo de Happy Paws"></a>
+
+                <div class="collapse navbar-collapse show " id="navbarDark">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="nav-link active" aria-current="page" href="pages/compra.html">Comprar</a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="nav-link" aria-current="page" href="pages/contacto.html">Contacto</a>
+
+                        </li>
+
+                        <form class="form " action="">
+
+                            <input type="text" name="" id="" class="headerSearch">
+                            <input type="submit" name="" value="Buscar" class="headerSearchSubmit" id="">
+
+                        </form>
+
+                    </ul>
+
+                </div>
 
             </div>
 
-            <div>
+            <div class="column">
 
                 <a class="btnLogin btn" href="./pages/login.html">LOGIN</a>
 
             </div>
 
-        </div>
+        </nav>
+
+    </header>
+
+    <main>
 
         <div class="flex">
 
-            <h1 class="title container">*** HAPPY PAWS ***</h1>
+            <h1 class="title container" id="title">*** HAPPY PAWS ***</h1>
 
         </div>
 
@@ -90,7 +128,7 @@
 
         <section class="bloque1">
 
-            <a href="#"><img class="logo" src="/img/logo.png" alt="Logo de Happy Paws"></a>
+            <a href="#"><img src="/img/logo.png" alt="Logo de Happy Paws"></a>
 
         </section>
 
@@ -134,7 +172,9 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-    <script script asíncrono tipo=" texto/javascript " src="/js/documento.js "> </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script script asíncrono tipo=" texto/javascript " src="/js/productosMuestras.js"> </script>
 
 </body>
 
