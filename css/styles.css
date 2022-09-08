@@ -378,29 +378,43 @@ header .nav .headerSearchSubmit {
     width: 250px;
 }
 
-/*perrosDeMuestra*/
+/*salonDeLaFama*/
 
-.catSay{
-    font-family: iLoveSalmon;
+.catPict {
+    margin: 10px;
+    border: 5px solid rgb(68, 1, 62);
+    border-radius: 5px;
+}
+
+.catSay {
+    font-family: Roboto;
     font-size: larger;
     color: #13002b;
     background-color: #dd83f8;
-    height: 150px;
+    height: 100px;
     width: 250px;
     padding: 3px;
     margin: 5px;
     border: 2px solid black;
+    border-radius: 5px;
 }
 
-.btnAnimal{
+.btnAnimal {
     font-family: iLoveSalmon;
     font-size: medium;
-    color: #13002b;
-    background-color: #fa60ed;
-    border: 2px solid rgb(38, 3, 77);
+    color: #b8a2d3;
+    background-color: #080008;
+    border: 4px solid rgb(197, 177, 0);
     border-radius: 10%;
-    padding: 3px;
+    padding: 10px;
     margin: 10px;
+    
+}
+
+.famosos{
+    background-color: lightgoldenrodyellow;
+    margin: 20px;
+    max-height: 50%;
 }
 
 

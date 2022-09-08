@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/generales.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>¿Tu mascota es mago?</title>
+    <title>Salón de la fama</title>
 </head>
 
 <body>
@@ -65,44 +65,27 @@
 
     </header>
 
-    <div class="container-fluid">
+    <main class="container">
 
-        <main class="container">
+        <div class="flex">
+            <img class="catPict" src="../img/cat.jpeg" alt="Gato negro y blanco mirando a la cámara">
+        </div>
+        <div class="flex">
+            <p class="catSay">Todas las mascotas que ingresan a nuestro local son verdaderas estrellas. ¡Vamos a
+                conocerlas!</p>
+        </div>
 
-            <div class="flex">
-                <img src="../img/cat.jpeg" alt="Gato negro y blanco mirando a la cámara">
-            </div>
-            <div class="flex">
-                <p class="catSay">Tu mascota tiene características distintas a otras mascotas. ¿A qué casa de Hogwarts
-                    pertenecería?</p>
-            </div>
+        <div class="flex">
 
-            <div class="flex">
+            <button id="jsonBtn" class="btnAnimal">Nuestros animales famosos</button>
 
-                <select id="casa" class="inpComprar">
-                    <option value="">Elige una casa</option>
-                    <option value="Gryffindor">Gryffindor</option>
-                    <option value="Ravenclaw">Ravenclaw</option>
-                    <option value="Slytherin">Slytherin</option>
-                    <option value="Hufflepuff">Hufflepuff</option>
-                </select>
+            <div id="famosos" class="famosos"></div>
 
-                <button id="buscar">Buscar</button>
-                <button id="search">Search</button>
+        </div>
 
-            </div>
+    </main>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4" id="contenedorTarjetas">
 
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-3 g-4" id="cardContainer">
-
-            </div>
-
-        </main>
-
-    </div>
 
     <footer class="container-fluid flex">
 
@@ -153,7 +136,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-    <script script asíncrono tipo=" texto/javascript " src="/js/mascotaHP.js"> </script>
+    <script script asíncrono tipo=" texto/javascript " src="/js/salonDeLaFama.js"> </script>
 
 </body>
 

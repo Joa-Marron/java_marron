@@ -1,0 +1,49 @@
+[{
+        "nombre": "Tuna",
+        "especie": "gato",
+        "genero": "femenino",
+        "edad": "9 meses"
+    },
+    {
+        "nombre": "Lucio",
+        "especie": "gato",
+        "genero": "masculino",
+        "edad": "10 años"
+    },
+    {
+        "nombre": "Gala",
+        "especie": "perro",
+        "genero": "femenino",
+        "edad": "7 años"
+    },
+    {
+        "nombre": "Bracko",
+        "especie": "perro",
+        "genero": "masculino",
+        "edad": "15 años"
+    },
+    {
+        "nombre": "Putete",
+        "especie": "ave",
+        "genero": "masculino",
+        "edad": "2 años"
+    },
+    {
+        "nombre": "Pululi",
+        "especie": "ave",
+        "genero": "femenino",
+        "edad": "5 meses"
+    },
+    {
+        "nombre": "Mickey",
+        "especie": "ratón",
+        "genero": "masculino",
+        "edad": "2 meses"
+    },
+    {
+        "nombre": "Minny",
+        "especie": "ratón",
+        "genero": "femenino",
+        "edad": "2 meses"
+    }
+]
