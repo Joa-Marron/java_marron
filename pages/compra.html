@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/generales.css">
     <title>Compra de productos</title>
 </head>
 
@@ -13,31 +14,31 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light nav h6" id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light nav h6 flex" id="nav">
 
-            <div class="container-fluid">
+            <div class="container-fluid flex">
 
                 <a href="/index.html"><img src="/img/logo.png" alt="Logo de Happy Paws"></a>
 
-                <div class="collapse navbar-collapse show " id="navbarDark">
+                <div class="collapse navbar-collapse show flex" id="navbarDark">
 
-                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-xl-0 spaceBetween">
 
                         <li class="nav-item">
 
-                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
 
                         </li>
 
                         <li>
 
-                            <a class="nav-link active" aria-current="page" href="#">Comprar</a>
+                            <a class="nav-link active" aria-current="page" href="compra.html">Comprar</a>
 
                         </li>
 
                         <li>
 
-                            <a class="nav-link" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                            <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
 
                         </li>
 
@@ -51,6 +52,12 @@
                     </ul>
 
                 </div>
+
+            </div>
+
+            <div class="flex">
+
+                <a class="btnLogin btn" href="./login.html">LOGIN</a>
 
             </div>
 
@@ -68,9 +75,9 @@
 
         <form class="container" action="" name="pedido">
 
-            <section class="secProductos flex container">
+            <section class="secProductos spaceAround container">
 
-                <h2>MORDEDORES</h2>
+                <h2 class="flex">MORDEDORES</h2>
 
                 <section class="interlProductos">
 
@@ -78,8 +85,7 @@
 
                         <img class="productos" src="../img/mordedor1.jpg" alt="Mordedor en forma de pelota azul.">
 
-                        <p class="descripProductos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-                            sed.</p>
+                        <p class="descripProductos">Ideal para jugar al aire libre con tu mascota.</p>
 
                         <div class="sepProductos">
 
@@ -95,8 +101,7 @@
 
                         <img class="productos" src="../img/mordedor2.jpg" alt="Mordedor en forma de pez.">
 
-                        <p class="descripProductos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-                            odit.</p>
+                        <p class="descripProductos">Su instinto cazador se activa mediante el juego.</p>
 
                         <div class="sepProductos">
 
@@ -112,8 +117,7 @@
 
                         <img class="productos" src="../img/mordedor3.jpg" alt="Mordedor en forma de hueso.">
 
-                        <p class="descripProductos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo,
-                            quos!</p>
+                        <p class="descripProductos">No solo juega con este mordedor, también limpia sus dientes.</p>
 
                         <div class="sepProductos">
 
@@ -129,10 +133,10 @@
 
                         <img class="productos" src="../img/mordedor4.jpg" alt="Mordedor en forma de mancuerna.">
 
-                        <p class="descripProductos">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Dignissimos, exercitationem.</p>
+                        <p class="descripProductos">El ejercicio es beneficioso para todos. Nuestras mascotas no son la
+                            excepción.</p>
 
-                        <div class="sepPlat">
+                        <div class="sepProductos">
 
                             <label class="labCant" for="cant">CANTIDAD:</label>
 
@@ -146,9 +150,9 @@
 
             </section>
 
-            <section class="secProductos flex container">
+            <section class="secProductos spaceAround container">
 
-                <h2>ROPITAS</h2>
+                <h2 class="flex">ROPITAS</h2>
 
                 <section class="interlProductos">
 
@@ -156,8 +160,7 @@
 
                         <img class="productos" src="../img/ropita1.jpg" alt="Buzo gris con capucha para perro.">
 
-                        <p class="descripProductos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-                            sed.</p>
+                        <p class="descripProductos">Será la envidia del barrio con este buzo canchero.</p>
 
                         <div class="sepProductos">
 
@@ -173,8 +176,7 @@
 
                         <img class="productos" src="../img/ropita2.jpg" alt="Gorro rojo en forma de rana para perro.">
 
-                        <p class="descripProductos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-                            odit.</p>
+                        <p class="descripProductos">¿Perro? ¿Rana? ¡No importa! ¿No es adorable?</p>
 
                         <div class="sepProductos">
 
@@ -192,7 +194,7 @@
 
             <section class="secProductos container">
 
-                <h2>CAMAS</h2>
+                <h2 class="flex">CAMAS</h2>
 
                 <section class="interlProductos">
 
@@ -203,9 +205,7 @@
                             <img class="productos" src="../img/camas1.jpg"
                                 alt="Cama ortopédica, rectangular, color beige.">
 
-                            <p class="descripProductos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laborum,
-                                sed.</p>
+                            <p class="descripProductos">Ideal para aquellas mascotas que necesitan un cuidado extra por sus huesos.</p>
 
                             <div class="sepProductos">
 
@@ -221,9 +221,7 @@
 
                             <img class="productos" src="../img/camas2.jpg" alt="Cama clásica, cuadrada, color azul.">
 
-                            <p class="descripProductos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laborum,
-                                sed.</p>
+                            <p class="descripProductos">Lo clásico nunca pasa de moda.</p>
 
                             <div class="sepProductos">
 
@@ -239,9 +237,7 @@
 
                             <img class="productos" src="../img/camas3.jpg" alt="Cama nido, redonda, color beige.">
 
-                            <p class="descripProductos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laborum,
-                                sed.</p>
+                            <p class="descripProductos">Nada como una camita en forma de nido para sentir la contención.</p>
 
                             <div class="sepProductos">
 
@@ -257,9 +253,7 @@
 
                             <img class="productos" src="../img/camas4.jpg" alt="Cama iglu color gris.">
 
-                            <p class="descripProductos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laborum,
-                                sed.</p>
+                            <p class="descripProductos">A veces necesitamos un techo sobre nuestra cabeza.</p>
 
                             <div class="sepProductos">
 
@@ -276,9 +270,7 @@
                             <img class="productos" src="../img/camas5.jpg"
                                 alt="Cama redonda, interior color camel, exterior color gris.">
 
-                            <p class="descripProductos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laborum,
-                                sed.</p>
+                            <p class="descripProductos">Las mascotas no solo quieren recostarse, desean un borde donde apoyar la cabeza.</p>
 
                             <div class="sepProductos">
 
