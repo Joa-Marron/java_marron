@@ -3,55 +3,55 @@
         "especie": "gato",
         "genero": "femenino",
         "edad": "9 meses",
-        "img":"java_marron-master/java_marron-master/img/tuna.jpg"
+        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/tuna.jpeg?raw=true"
     },
     {
         "nombre": "Lucio",
         "especie": "gato",
         "genero": "masculino",
         "edad": "10 años",
-        "img":"java_marron-master/java_marron-master/img/lucio.jpg"
+        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/lucio.jpeg?raw=true"
     },
     {
         "nombre": "Gala",
         "especie": "perro",
         "genero": "femenino",
         "edad": "7 años",
-        "img":"java_marron-master/java_marron-master/img/gala.jpg"
+        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/gala.jpeg?raw=true"
     },
     {
         "nombre": "Casper",
         "especie": "perro",
         "genero": "masculino",
         "edad": "3 meses",
-        "img":"java_marron-master/java_marron-master/img/casper.jpg"
+        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/casper.jpeg?raw=true"
     },
     {
         "nombre": "Putete",
         "especie": "loro",
         "genero": "masculino",
         "edad": "2 años",
-        "img":"java_marron-master/java_marron-master/img/putete.jpg"
+        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/putete.jpeg?raw=true"
     },
     {
         "nombre": "Pululi",
         "especie": "canario",
         "genero": "femenino",
         "edad": "5 meses",
-        "img":"java_marron-master/java_marron-master/img/pululi.jpg"
+        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/pululi.jpeg?raw=true"
     },
     {
         "nombre": "Sherlock",
         "especie": "hamster",
         "genero": "masculino",
         "edad": "2 meses",
-        "img":"java_marron-master/java_marron-master/img/sherlock.jpg"
+        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/sherlock.jpeg?raw=true"
     },
     {
         "nombre": "Samy",
         "especie": "coballo",
         "genero": "femenino",
         "edad": "2 meses",
-        "img":"java_marron-master/java_marron-master/img/samy.jpg"
+        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/samy.jpeg?raw=true"
     }
 ]

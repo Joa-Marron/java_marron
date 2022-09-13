@@ -11,6 +11,7 @@ function cargarJSON () {
             listaHTML += `
             <li>Nombre:${animal.nombre} Especie:${animal.especie} Género:${animal.genero} Edad:${animal.edad}</li>
             <br>
+            <img src="${animal.img}">
             `;
         })
         document.getElementById('famosos').innerHTML = listaHTML;
