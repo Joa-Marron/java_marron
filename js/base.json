@@ -2,48 +2,56 @@
         "nombre": "Tuna",
         "especie": "gato",
         "genero": "femenino",
-        "edad": "9 meses"
+        "edad": "9 meses",
+        "img":"java_marron-master/java_marron-master/img/tuna.jpg"
     },
     {
         "nombre": "Lucio",
         "especie": "gato",
         "genero": "masculino",
-        "edad": "10 años"
+        "edad": "10 años",
+        "img":"java_marron-master/java_marron-master/img/lucio.jpg"
     },
     {
         "nombre": "Gala",
         "especie": "perro",
         "genero": "femenino",
-        "edad": "7 años"
+        "edad": "7 años",
+        "img":"java_marron-master/java_marron-master/img/gala.jpg"
     },
     {
-        "nombre": "Bracko",
+        "nombre": "Casper",
         "especie": "perro",
         "genero": "masculino",
-        "edad": "15 años"
+        "edad": "3 meses",
+        "img":"java_marron-master/java_marron-master/img/casper.jpg"
     },
     {
         "nombre": "Putete",
-        "especie": "ave",
+        "especie": "loro",
         "genero": "masculino",
-        "edad": "2 años"
+        "edad": "2 años",
+        "img":"java_marron-master/java_marron-master/img/putete.jpg"
     },
     {
         "nombre": "Pululi",
-        "especie": "ave",
+        "especie": "canario",
         "genero": "femenino",
-        "edad": "5 meses"
+        "edad": "5 meses",
+        "img":"java_marron-master/java_marron-master/img/pululi.jpg"
     },
     {
-        "nombre": "Mickey",
-        "especie": "ratón",
+        "nombre": "Sherlock",
+        "especie": "hamster",
         "genero": "masculino",
-        "edad": "2 meses"
+        "edad": "2 meses",
+        "img":"java_marron-master/java_marron-master/img/sherlock.jpg"
     },
     {
-        "nombre": "Minny",
-        "especie": "ratón",
+        "nombre": "Samy",
+        "especie": "coballo",
         "genero": "femenino",
-        "edad": "2 meses"
+        "edad": "2 meses",
+        "img":"java_marron-master/java_marron-master/img/samy.jpg"
     }
 ]
