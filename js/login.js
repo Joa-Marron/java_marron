@@ -12,11 +12,9 @@ function guardarDatos(storage) {
         'pass': pass,
     }
 
-    storage === 'sessionStorage'&& sessionStorage.setItem('user', JSON.stringify(usuario));
-    
-    storage === 'localStorage'&& localStorage.setItem('user', JSON.stringify(usuario));
-    
+    storage === 'sessionStorage' && sessionStorage.setItem('user', JSON.stringify(usuario));
 
+    storage === 'localStorage' && localStorage.setItem('user', JSON.stringify(usuario));
 }
 
 function borrarDatos(storage) {

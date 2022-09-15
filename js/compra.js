@@ -2,7 +2,7 @@ const btnDelete = document.getElementById('btnDelete');
 
 btnDelete.addEventListener('click', () => {
     Swal.fire({
-        title: '¿Estás seguro de eliminar la compra hasta el momento?',
+        title: '¿Estás seguro de vaciar el carrito con los productos seleccionados hasta el momento?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonText:'Sí, seguro.',
@@ -11,9 +11,9 @@ btnDelete.addEventListener('click', () => {
     }).then((result)=>{
         if(result.isConfirmed){
             Swal.fire({
-                title:'Eliminado',
+                title:'VACÍO',
                 icon:'sucess',
-                text:'El producto ha sido eliminado.'
+                text:'El carrito ha sido vaciado.'
             })
         }
     })

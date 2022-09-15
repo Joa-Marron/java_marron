@@ -1,5 +1,4 @@
 const boton = document.getElementById('boton');
-
 const selectYear = document.querySelector('#year');
 const selectMonth = document.querySelector('#month');
 const nombreTitular = document.querySelector('.card-holder-input');
@@ -56,10 +55,8 @@ let cleave = new Cleave(numeroTarjeta, {
     onCreditCardTypeChanged: (type) => {
         const logos = document.querySelectorAll('.cardLogo');
         logos.forEach(element => {
-            element.src = `./img/${type}.png`
+            element.src = `..//img/logos/${type}.png`
         })
-
-
     }
 })
 

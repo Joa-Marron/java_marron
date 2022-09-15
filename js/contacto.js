@@ -1,5 +1,6 @@
 const infoForm = document.querySelector('#formulario');
 const recordar = document.querySelector('#rememberMe');
+const enviar = document.querySelector('#send')
 
 
 function guardarDatos() {
@@ -12,9 +13,7 @@ function guardarDatos() {
     }
 
     localStorage.setItem('user', JSON.stringify(usuario));
-
 }
-
 
 infoForm.addEventListener('submit', function handleSubmit(event) {
     event.preventDefault();
@@ -36,7 +35,7 @@ infoForm.addEventListener('submit', function handleSubmit(event) {
     }
     localStorage.setItem('data', JSON.stringify(person));
     infoForm.reset();
-    
+
 })
 
 recordar.addEventListener('click', () => {
@@ -46,14 +45,24 @@ recordar.addEventListener('click', () => {
         showCancelButton: true,
         confirmButtonText: 'Si, seguro',
         cancelButtonText: 'No, no quiero'
-    }).then((result)=>{
-        if(result.isConfirmed){
+    }).then((result) => {
+        if (result.isConfirmed) {
             guardarDatos();
             Swal.fire({
                 title: 'Tus datos se guardaron exitosamente',
                 icon: 'success'
             })
         }
+    })
+})
+
+enviar.addEventListener('click', () => {
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Su mensaje fue enviado. Muchas gracias.',
+        showConfirmButton: false,
+        timer: 1500
     })
 })
 

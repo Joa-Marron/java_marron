@@ -34,7 +34,6 @@ const camas = [ortopedica, clasica, nido, iglu, redonda];
 
 const productosTotal = [...mordedores, ...ropitas, ...camas];
 
-
 console.log(productosTotal);
 
 let selectorOpciones = document.querySelector('#opcionesProductos');
@@ -44,7 +43,6 @@ let listaResultados = document.getElementById('resultado');
 const filtrar = (array, categoria) => {
     return array.filter(item => item.categoria == categoria)
 }
-
 
 const handleClick = (array, select) => {
     return filtrar(array, select.value);

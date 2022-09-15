@@ -411,8 +411,8 @@ header .nav .headerSearchSubmit {
 
 .divBtn{
     max-width: 50vw;
-    margin: 5px;
-}
+    margin: 10px;
+    }
 
 /*salonDeLaFama*/
 
@@ -452,9 +452,17 @@ header .nav .headerSearchSubmit {
 }
 
 .famosos{
-    background-image: url(../img/backgroundPanal.jpg);
+    display: flex;
+    justify-content: space-between;
+    font-family: iLoveSalmon;
+    font-size:large;
+    color: #21003f;
+    padding: 10px;
+    background-image: url(../img/backgroundfamosos.jpg);
+    background-size: cover;
     margin: 20px;
     max-height: 50%;
+    border: 2px solid rgb(25, 0, 31);
 }
 
 
@@ -522,9 +530,10 @@ footer section.bloque3 {
 
 .bloqueLogin {
     margin-top: 25px;
-    background-color: #2e0047;
-    color: #d6ced6;
-    border: 3px solid rgb(182, 11, 153);
+    background-image: url(/img/backgroundLogin.jpg);
+    background-size: cover;
+    color: #0f010f;
+    border: 3px solid rgb(37, 0, 31);
     font-family: Roboto;
     padding: 30px;
     height: auto;
