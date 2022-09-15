@@ -3,55 +3,41 @@
         "especie": "gato",
         "genero": "femenino",
         "edad": "9 meses",
-        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/tuna.jpeg?raw=true"
-    },
-    {
-        "nombre": "Lucio",
-        "especie": "gato",
-        "genero": "masculino",
-        "edad": "10 años",
-        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/lucio.jpeg?raw=true"
+        "img": "../img/tuna.jpeg"
     },
     {
         "nombre": "Gala",
         "especie": "perro",
         "genero": "femenino",
         "edad": "7 años",
-        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/gala.jpeg?raw=true"
+        "img": "../img/gala.jpg"
     },
     {
         "nombre": "Casper",
         "especie": "perro",
         "genero": "masculino",
         "edad": "3 meses",
-        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/casper.jpeg?raw=true"
+        "img": "../img/casper.jpg"
     },
     {
-        "nombre": "Putete",
+        "nombre": "Puteta",
         "especie": "loro",
-        "genero": "masculino",
-        "edad": "2 años",
-        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/putete.jpeg?raw=true"
-    },
-    {
-        "nombre": "Pululi",
-        "especie": "canario",
         "genero": "femenino",
-        "edad": "5 meses",
-        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/pululi.jpeg?raw=true"
+        "edad": "2 años",
+        "img": "../img/putete.jpg"
     },
     {
-        "nombre": "Sherlock",
+        "nombre": "Rita",
+        "especie": "perro",
+        "genero": "femenino",
+        "edad": "2 meses",
+        "img": "../img/rita.jpg"
+    },
+    {
+        "nombre": "Sherlok",
         "especie": "hamster",
         "genero": "masculino",
         "edad": "2 meses",
-        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/sherlock.jpeg?raw=true"
-    },
-    {
-        "nombre": "Samy",
-        "especie": "coballo",
-        "genero": "femenino",
-        "edad": "2 meses",
-        "img":"http://github.com/Joa-Marron/java_marron/blob/master/img/samy.jpeg?raw=true"
+        "img": "../img/sherlock.jpg"
     }
 ]

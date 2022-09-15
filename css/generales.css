@@ -25,12 +25,23 @@
     justify-content: space-around;
 }
 
+.spaceEvenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .columnMedio {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
 }
+
+.right{
+display: flex;
+justify-content:flex-end;
+}
+
 
 .aire {
     margin-top: 30px;

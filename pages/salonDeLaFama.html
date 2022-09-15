@@ -42,10 +42,17 @@
 
                         </li>
 
+                        <li>
+
+                            <a class="nav-link" aria-current="page" href="#">famosos</a>
+
+                        </li>
+
                         <form class="form " action="">
 
                             <input type="text" name="" id="" class="headerSearch">
                             <input type="submit" name="" value="Buscar" class="headerSearchSubmit" id="">
+                            <a class="btnLogin btn" href="./login.html">LOGIN</a>
 
                         </form>
 
@@ -55,17 +62,17 @@
 
             </div>
 
-            <div class="flex">
-
-                <a class="btnLogin btn" href="./login.html">LOGIN</a>
-
-            </div>
-
         </nav>
 
     </header>
 
     <main class="container">
+
+        <div class="flex">
+
+            <h1 class="title container" id="title">HAPPY PAWS</h1>
+
+        </div>
 
         <div class="flex">
             <img class="catPict" src="../img/gatita.jpg" alt="Gato negro y blanco mirando a la cámara">
@@ -77,9 +84,12 @@
 
         <div class="flex">
 
-            <button id="jsonBtn" class="btnAnimal flex">Nuestros animales famosos</button>
+            <div class="flex">
+                <button id="jsonBtn" class="btnAnimal flex">Nuestros animales famosos</button>
+            </div>
 
-            <div id="famosos" class="famosos"></div>
+
+            <div id="famosos" class="famosos wrap"></div>
 
         </div>
 
